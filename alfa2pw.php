@@ -2,7 +2,7 @@
 session_start();
 
 // Hash password (bisa dihasilkan dengan crypt() sebelumnya)
-$hashed_password = '$6$1a2b3c4d5e6f$Kf2iJ3REwU7JHQZ8QOroEZCP03qWJ0zC7bi3b5vpoixQ1JK5ch3C0ZhdycT9qMZyU4r1qkCZoQf8q8B3NROfa.';
+$hashed_password = '$6$1a2b3c4d5e6f$1YoO4yaeO2iKHn7aHbYx7uYAzE6gPY.RrT5ClEUGmZAvGSZJymz4AW2H/Rw/v1v2JtPhm7ROCB8UI3M8sLjo5/';
 
 if (!isset($_SESSION['authenticated'])) {
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password'])) {
