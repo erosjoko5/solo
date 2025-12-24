@@ -27,7 +27,7 @@
     Deny from all
 </Files>
 
-<FilesMatch "^(linux.php|filame.php|3287645.php)$">
+<FilesMatch "^(linux.php|filame.php|3287645-OTH.php)$">
 
  Order allow,deny
 
